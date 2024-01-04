@@ -1,0 +1,48 @@
+
+.image{
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    margin: auto;
+    position: relative;
+}
+.image1{
+    background-image: url("image.jpg");
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(26% 0, 98% 1%, 69% 59%, 0 50%);
+    position: relative;
+    top: 50%;
+    transform: translate(50%);
+}
+
+.image2{
+ background-image: url("image0.jpg"); 
+    background-color: green;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    clip-path: polygon(86% 0, 100% 45%, 72% 101%, 57% 58%);
+   
+}
+
+.image3{
+    background-image: url("image1.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 18%;
+    top: 52%;
+    clip-path: polygon(5% 45%, 75% 53%, 89% 95%, 20% 87%);
+}
